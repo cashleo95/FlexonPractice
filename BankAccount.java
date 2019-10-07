@@ -11,7 +11,7 @@ public class BankAccount {
 		String name = "Chong Liu";
 		String email = "cashleo@outlook.com";
 		String phone = "4256330972";
-	
+		
 
 	public
 		void deposit(double amount) {
@@ -25,6 +25,9 @@ public class BankAccount {
 			else {
 				balance = balance - amount;
 			}
+		}
+		double get_balance() {
+			return balance;
 		}
 		void display_info () {
 			System.out.println(name);
